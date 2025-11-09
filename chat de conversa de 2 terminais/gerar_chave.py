@@ -9,4 +9,4 @@ key = Fernet.generate_key()
 with open("chave.key", "wb") as f:
     f.write(key)
 
-print("✅ Chave gerada e salva em 'chave.key'.")
+print("Chave gerada e salva em 'chave.key'.")
